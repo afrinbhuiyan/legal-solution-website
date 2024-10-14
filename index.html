@@ -11,6 +11,8 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+ <!-- font awsome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <!-- Tailwind custom color -->
  <script>
     tailwind.config = {
@@ -241,9 +243,46 @@
                </div>
          </section>
          <!-- Client Section -->
-         <section>
-
-         </section>
+         <!-- <section>
+          <div class="carousel ">
+            <div id="slide1" class="carousel-item relative h-[60%] w-[1500px]">
+              <img
+                src="images/slider-1.jpg"
+                class="h-[60%] w-[1500px]" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative h-[60%] w-[1500px]">
+              <img
+                src="images/slider-2.jpg"
+                class="h-[60%] w-[1500px]" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative h-[60%] w-[1500px]">
+              <img
+                src="images/slider-3.jpg"
+                class="h-[60%] w-[1500px]" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative h-[60%] w-[1500px]">
+              <img
+                src="images/closeup-gavel-judgement-concept.jpg"
+                class="h-[60%] w-[1500px]" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+         </section> -->
          <!-- Question section -->
          <section class="my-24">
           <h3 class="text-4xl mb-4 font-extrabold text-center">
@@ -380,8 +419,42 @@
             </div>
       </section>
     </main>
-    <footer>
-           
+    <footer class="footer p-7 p-3 lg:p-24 text-white bg-black pl-1 lg:pl-60">
+        <nav>
+          <img src="images/logo.png" class="mb-4" alt="">
+          <p class="text-zinc-400">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority have <br> suffered alteration in some <br> form, by injected humour.</p>
+        </nav>
+        <nav>
+          <h6 class="text-2xl font-extrabold text-white mb-4">Usefull Link</h6>
+          <a class="link link-hover mb-2 text-zinc-400">Homes</a>
+          <a class="link link-hover mb-2 text-zinc-400">About us</a>
+          <a class="link link-hover mb-2 text-zinc-400">Contact</a>
+          <a class="link link-hover mb-2 text-zinc-400">Jobs</a>
+          <a class="link link-hover mb-2 text-zinc-400">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="text-2xl font-extrabold text-white mb-4">Contact Now</h6>
+          <a class="link link-hover text-zinc-400">555 4th 5t NW, Washington <br>
+            DC 20530, United States</a>
+          <a class="link link-hover text-zinc-400">+88 01750 000 000 <br>
+            +88 01750 000 000</a>
+          <a class="link link-hover text-zinc-400">info@gmail.com <br>
+            info@gmail.com</a>
+        </nav>
+        <form>
+          <h6 class="text-2xl font-extrabold text-white mb-4">Subscribe</h6>
+          <p class="text-zinc-400">Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
+          <fieldset class="form-control w-80 mt-5">
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="input input-bordered join-item" />
+              <button class="btn btn-primary join-item"><i class="fa-solid fa-location-arrow" style="color: #ffffff;"></i></button>
+            </div>
+          </fieldset>
     </footer>
 </body>
 </html>
+
+
